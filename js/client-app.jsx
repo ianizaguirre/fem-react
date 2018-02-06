@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-const x = 5;
+
 const App = () => (
 	<div className="app">
 		<div className="landing">

@@ -4,6 +4,7 @@
         "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"js/**/*.{js,jsx}\"",
         "lint": "eslint **/*.{js,jsx} --quiet",
         "build": "webpack",
+        "dev": "webpack-dev-server",
         "watch": "webpack --watch",
         "server": "./node_modules/.bin/webpack-dev-server"
     },

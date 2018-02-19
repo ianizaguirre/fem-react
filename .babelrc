@@ -8,5 +8,8 @@
 			"loose": true,   // if you do edecase stuff set this to true to avoid problems
 			"modules": false // "babel dont touch the modules, webpack will worry about it"
 		}]
+	],
+	"plugins": [
+		"babel-plugin-transform-class-properties"
 	]
 }

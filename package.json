@@ -3,10 +3,15 @@
         "api": "node ratingsAPI.js",
         "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"js/**/*.{js,jsx}\"",
         "lint": "eslint **/*.{js,jsx} --quiet",
+        "test": "jest",
+        "test:update": "jest -u",
         "build": "webpack",
         "dev": "webpack-dev-server",
         "watch": "webpack --watch",
         "server": "./node_modules/.bin/webpack-dev-server"
+    },
+    "jest": {
+        "snapshotSerializers": ["jest-serializer-enzyme"]
     },
     "dependencies": {
         "axios": "0.16.1",
@@ -17,6 +22,7 @@
         "cors": "2.8.3",
         "eslint": "^3.19.0",
         "express": "4.15.3",
+        "jest-cli": "^22.3.0",
         "lodash": "4.17.4",
         "preact": "8.1.0",
         "preact-compat": "3.16.0",

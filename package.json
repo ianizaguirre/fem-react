@@ -5,6 +5,7 @@
         "lint": "eslint **/*.{js,jsx} --quiet",
         "test": "jest",
         "test:update": "jest -u",
+        "test:coverage": "jest --coverage",
         "build": "webpack",
         "dev": "webpack-dev-server",
         "watch": "webpack --watch",

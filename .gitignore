@@ -11,3 +11,7 @@ _site/
 .sass-cache/
 *.iml
 .idea/
+
+
+# Me
+WorkFlowLog.md

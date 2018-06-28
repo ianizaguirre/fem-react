@@ -15,3 +15,5 @@ _site/
 
 # Me
 WorkFlowLog.md
+.vscode/
+.vscode/settings.json

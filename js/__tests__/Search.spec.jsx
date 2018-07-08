@@ -1,7 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import preload from '../../data.json';
-import Search, { Unwrapped as UnwrappedSearch } from '../Search';
+// import Search, { Unwrapped as UnwrappedSearch } from '../Search';
+import { Unwrapped as UnwrappedSearch } from '../Search';
 import ShowCard from '../ShowCard';
 
 test('Search renders correctly', () => {

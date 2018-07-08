@@ -5,8 +5,8 @@
 			"targets": {
 				"browsers": "last 2 versions"
 			},
-			"loose": true,   // if you do edgecase stuff set this to true to avoid problems
-			"modules": false // "babel dont touch the modules, webpack will worry about it"
+			"loose": true,
+			"modules": false
 		}]
 	],
 	"plugins": [
@@ -18,6 +18,11 @@
 			"plugins": [
 				"babel-plugin-transform-es2015-modules-commonjs"
 			]
-		}
+    },
+    "server": {
+      "plugins": [
+        "babel-plugin-transform-es2015-modules-commonjs"
+      ]
+    }
 	}
 }
